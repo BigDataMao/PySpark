@@ -12,7 +12,7 @@ if __name__ == '__main__':
     file_rdd = sc.textFile('../data/input/words.txt')
 
     # 将单词进行切割,得到一个存储单词的集合对象
-    words_rdd = file_rdd.flatMap(lambda line: line.split(' '))
+    words_rdd = file_rdd.flatMap(lambda x: x.split(' '))
 
     # 将单词转换为元祖对象,key是单词,value是数字1
     words_with_1_rdd = words_rdd.map(lambda x: (x, 1))
