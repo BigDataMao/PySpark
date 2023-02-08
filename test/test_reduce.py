@@ -16,4 +16,3 @@ print(result1.collect())
 result2 = rdd.groupByKey().mapValues(list)
 
 print(result2.collect())
-
