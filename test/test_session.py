@@ -14,7 +14,7 @@ if __name__ == '__main__':
     sc = spark.sparkContext
 
     # SparkSQL的HelloWorld
-    df = spark.read.csv("../data/input/stu_score.txt", sep=',', header=False)
+    df = spark.read.csv("../data/input/stu_score.csv", sep=',', header=False)
     df2 = df.toDF("id", "name", "score")
     df2.printSchema()
     df2.show()
