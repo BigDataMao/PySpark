@@ -10,7 +10,7 @@ if __name__ == '__main__':
     sc = spark.sparkContext
 
     # 用sc造一个rdd对象
-    rdd = sc.textFile('../data/input/people.txt', minPartitions=None, use_unicode=True). \
+    rdd = sc.textFile('../../data/input/people.txt', minPartitions=None, use_unicode=True). \
         map(lambda x: x.split(',')). \
         map(lambda x: [x[0], int(x[1])])  # 强转格式
 

@@ -33,8 +33,11 @@ if __name__ == '__main__':
     people_csvDF.show(10)
 
     # 读取parquet列式存储文件,单词本意是镶木地板
+    # parquet文件自带:列明,格式,且序列化压缩
     users_parquetDF = spark.read. \
         format('parquet'). \
         load('../../data/input/users.parquet')
     users_parquetDF.printSchema()
     users_parquetDF.show()
+
+    # TODO 读取其他
