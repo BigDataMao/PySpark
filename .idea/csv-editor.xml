@@ -10,6 +10,27 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\data\output\wordCountResult.csv\part-00000-9ae519da-ab7d-4204-817f-b7ae034389bd-c000.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\output\wordCountResult\part-00000-30466204-e2d3-45f8-b533-cc25c1dcbbdb-c000.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\output\worldCountResult.csv\part-00000-10b704a0-b876-4590-8331-7b364cbb22de-c000.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

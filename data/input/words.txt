@@ -1,3 +1,5 @@
 hello spark
 hello hadoop
 hello flink
+spark is better than hadoop and flink
+spark spark spark yyds
